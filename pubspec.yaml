@@ -1,10 +1,10 @@
 name: murmurhash
 description: MurmurHash v3 Implementation in Dart.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/HosseinYousefi/murmurhash
 
 environment:
-  sdk: '>=2.12.0-259.9.beta <3.0.0'
+  sdk: '>=2.14.0 <3.0.0'
 
 dependencies:
 

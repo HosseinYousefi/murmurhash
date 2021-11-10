@@ -11,4 +11,9 @@ void main() {
   test('Some Larger String!, seed 123', () {
     expect(MurmurHash.v3('Some Larger String!', 123), 3193508780);
   });
+
+  test('timestamp', () {
+    expect(MurmurHash.v3('2021-03-12T14:03:18.903Z-0000-00000000000000hi', 0),
+        3849833620);
+  });
 }
